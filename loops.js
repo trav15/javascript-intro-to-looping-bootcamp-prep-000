@@ -27,6 +27,7 @@ function doWhileLoop(array) {
     console.log(array)
     console.log(maybeTrue())
   } while(array.length > 0 || maybeTrue())
+  return false
 }
 
 var fakeArray = [1, 2, 3, "four", "five"]
